@@ -1,9 +1,12 @@
 name: Create Test Release
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - testing_*
+    branches:
+    - main
 
 jobs:
   build:
