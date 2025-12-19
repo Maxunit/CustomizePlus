@@ -5,6 +5,8 @@ on:
   push:
     tags:
       - testing_*
+    branches:
+    - xiv_7_4
 
 jobs:
   build:
