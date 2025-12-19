@@ -6,7 +6,7 @@ on:
     tags:
       - testing_*
     branches:
-    - xiv_7_4
+    - main
 
 jobs:
   build:
